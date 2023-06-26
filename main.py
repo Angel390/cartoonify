@@ -14,6 +14,8 @@ def cartoonify(image_path):
     if original_image is None:
         print("")
         os.exit()
+    
+    resized_one = cv2.resize(original_image(960,540))
 
 # upload image from local system
 def upload():
